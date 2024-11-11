@@ -24,9 +24,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'store.checker.store_checker'
-
-    compileSdkVersion 34
+    namespace = 'store.checker.store_checker'
+    compileSdkVersion = 34
 
     defaultConfig {
         minSdkVersion 21
